@@ -1,0 +1,40 @@
+ # Calculator
+
+
+num1=input("Enter First No =")                                  #take First input from user                                  
+op=input("Enter the operatores are: (+,-,/,%,*,**) = " )        # create choice according to user for operation perform
+num2=input("Enter second No = ")                                #take second input from user
+
+num1=int(num1)  # define data type 'int' for num1
+num2=int(num2)  # define data type 'int' for num2
+
+
+if op == "+" :  # use if condition to cheak operators and '==' use for cheaking equality of operators 
+        print(num1+num2)        # Addition of 2 numers
+        
+
+elif op == "-" : 
+        print(num1-num2)        
+        
+        
+
+elif op == "/" :
+        print(num1/num2)
+        
+        
+
+elif op == "%" :
+        print(num1%num2)
+        
+        
+
+elif op == "*" :
+        print(num1*num2)
+        
+
+elif op == "**" :
+        print(num1**num2)
+        
+
+else :
+        print("Invalid Number:")        
